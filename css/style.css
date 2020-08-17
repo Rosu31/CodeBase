@@ -53,7 +53,7 @@ a {
 
 @media screen and (max-width: 1920px) {
     body {
-        background-image: url("./images/Resized/top_background.jpg");
+        background-image: url("/CodeBase/images/Resized/top_background.jpg");
     }
 
     .logo {
@@ -171,7 +171,7 @@ a {
 
     /* 1024px以下に適用されるCSS（タブレット用） */
     body {
-        background-image: url("./images/Resized/tablet1024.jpg");
+        background-image: url("/CodeBase/images/Resized/tablet1024.jpg");
     }
 
     .logo-img {
@@ -246,7 +246,7 @@ a {
 
     /* 768px以下に適用されるCSS（タブレット用） */
     body {
-        background-image: url("./images/Resized/tablet.jpg");
+        background-image: url("/CodeBase/images/Resized/tablet.jpg");
     }
 
     .logo-img {
@@ -299,7 +299,7 @@ a {
 
     /* 480px以下に適用されるCSS（タブレット用） */
     body {
-        background-image: url("./images/Resized/smartphone.jpg");
+        background-image: url("/CodeBase/images/Resized/smartphone.jpg");
     }
 
     .logo-img {
