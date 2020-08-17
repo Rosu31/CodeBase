@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("C:/Users/user/OneDrive/Study/HTML/images/Resized/top_background.jpg");
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-text {
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.logo-img {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar {
+    opacity: 85%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.nav-item {
+    padding-left: 15px;
+    font-size: 14px;
+    color: rgb(85, 141, 122);
+    cursor: pointer;
+}
+
+.slide-line {
+    background:#666;
+    height:2px;
+    display:block;
+    position:relative;
+    width:50px;
+    left:0;
+}
+
+.container-fluid {
+    overflow: auto;
+    padding: 0;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.area {
+    scroll-snap-align: start;
+    height: 100vh;
+    position: relative;
+
+}
+
+.page1,
+.page2,
+.page3 {
+
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ffffff;
+    opacity: 85%;
+    width: 95%;
+    height: 90%;
+}
+
+@media screen and (max-width: 1920px) {
+
+
+    .modal-content {
+        height: 500px;
+    }
+
+    .modal-dialog {
+        max-width: 800px;
+        margin: 250px auto;
+    }
+
+    .modal-body {
+        height: 350px;
+    }
+
+    textarea {
+        height: 270px;
+        vertical-align: top;
+    }
+
+    .modal-header,
+    .modal-footer {
+        margin: 5px;
+    }
+}

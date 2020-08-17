@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("C:/Users/user/OneDrive/Study/HTML/images/Resized/top_background.jpg");
+    font-family: "Sawarabi Gothic";
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-text {
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.logo-img {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar {
+    opacity: 85%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.nav-item {
+    padding-left: 15px;
+    font-size: 14px;
+    color: rgb(85, 141, 122);
+    cursor: pointer;
+}
+
+.container-fluid {
+    overflow: auto;
+    padding: 0;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.area {
+    scroll-snap-align: start;
+    height: 100vh;
+    position: relative;
+
+}
+
+.page1,
+.page2,
+.page3 {
+
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ffffff;
+    opacity: 85%;
+    width: 95%;
+    height: 90%;
+}
+
+@media screen and (max-width: 1920px) {
+
+
+    .modal-content {
+        height: 500px;
+    }
+
+    .modal-dialog {
+        max-width: 800px;
+    }
+
+    .modal-body {
+        height: 350px;
+    }
+
+    textarea {
+        height: 270px;
+        vertical-align: top;
+    }
+
+    .modal-header,
+    .modal-footer {
+        margin: 5px;
+    }
+
+    .page1 img {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        opacity: 1;
+        z-index: 10;
+    }
+
+    .page1-textarea {
+        position: absolute;
+        top: 40%;
+        left: 55%;
+    }
+
+    .page2-img {
+        width: 320px;
+        height: 280px;
+    }
+
+    .img2-1 {
+        position: absolute;
+        top: 15%;
+        left:5%;
+        border: 1px solid black;
+    }
+
+    .img2-2 {
+        position: absolute;
+        top: 35%;
+        left:20%;
+        border: 1px solid black;
+    }
+
+    .img2-3 {
+        position: absolute;
+        top: 60%;
+        left:5%;
+        border: 1px solid black;
+    }
+
+    .page2-textarea {
+        position: absolute;
+        top: 40%;
+        left: 55%;
+    }
+
+    .page3 img {
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        opacity: 1;
+        z-index: 10;
+    }
+
+    .page3-textarea {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+    }
+}

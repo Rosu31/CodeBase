@@ -1,0 +1,190 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+header p {
+    color: white;
+}
+
+header a {
+    color: white;
+    font-size: 14px;
+}
+
+.header-logo {
+    color: rgb(0, 94, 131);
+    float: left;
+    margin-left: 20px;
+}
+
+.header-menus li {
+    float: right;
+    margin: 33px 20px;
+    inline-size: auto;
+}
+
+.area_media {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover
+}
+
+.container {
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    max-width: 100%;
+    padding: 0;
+}
+
+.fadeIn {
+    opacity: 0;
+    transform: translate(0, 50px);
+    transition: all 1500ms;
+}
+
+.scrollIn {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.area {
+    position: relative;
+    scroll-snap-align: start;
+    height: 100vh;
+}
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+}
+
+.page-wrapper {
+    position: absolute;
+    top: 7%;
+    left: 2.5%;
+    width: 95%;
+    height: 90vh;
+    background-color: #ffffff;
+}
+
+/* */
+#page1 {
+    position: relative;
+    max-width: 100%;
+}
+
+.page1-contents {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+
+.profile_img {
+    border-radius: 50%;
+    width: 150px;
+    height: 140px;
+}
+
+/* */
+#page2 {
+    position: relative;
+    max-width: 100%;
+    background-color: #DFEFED;
+}
+
+.page2-contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.page2-img1 {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid;
+}
+
+.page2-img2 {
+    position: absolute;
+    top: 36%;
+    left: 19%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid;
+}
+
+.page2-img3 {
+    position: absolute;
+    top: 59%;
+    left: 11%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid;
+}
+
+/* */
+#page3 {
+    position: relative;
+    max-width: 100%;
+    background-color: #BFE9DB;
+}
+
+.page3-contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* */
+#page4 {
+    position: relative;
+    max-width: 100%;
+    background-color: #6AC1B7;
+}
+
+.page4-contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.page4-movcontent {
+    position: relative;
+    top:20%;
+    left: 8%;
+}
+
+/* */
+#page5 {
+    position: relative;
+    max-width: 100%;
+    background-color: #517D99;
+}
+
+.page5-contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

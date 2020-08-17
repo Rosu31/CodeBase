@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+
+    <!-- Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <!-- Navbar -->
+            <div class="navbar navbar-expand-sm navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img class="logo-img" src="./images/Resized/whitebair.svg" alt=""><span
+                        class="nav-text">More</span></a>
+                <a class="nav-item nav-link active current-item" href="./index.html">Home</a>
+                <a class="nav-item nav-link active" href="./about.html">About</a>
+                <a class="nav-item nav-link active" href="./work.html">Work</a>
+                <span class="nav-item open-contact-form" data-toggle="modal" data-target="#contact-modal">お問い合わせ</span>
+                <span id="slide-line"></span>
+            </div>
+        </header>
+        <section class="area">
+            <div class="page1">
+                <div class="page1-textarea">
+                    <h2>Page1</h2>
+                    <p class="page1-text">
+                        Page1Text
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="area">
+            <div class="page2">
+                <div class="page2-textarea">
+                    <h2>Page2</h2>
+                    <p class="page2-text">
+                        Page2Text
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="area">
+            <div class="page3">
+                <div class="page3-textarea">
+                    <h2>Page3</h2>
+                    <p class="page3-text">
+                        Page3Text
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- Contact Form -->
+    <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+        aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>
+                        <div class="modal-title" id="myModalLabel">Contact</div>
+                    </h4>
+                </div>
+                <form role="form" id="contactform" action="/about.html" method="POST">
+                    <div class="modal-body　row center-block">
+                        <label class="col-3">お名前</label>
+                        <input class="col-8" type="text"><br>
+                        <label class="col-3">メールアドレス</label>
+                        <input class="col-8" type="text"><br>
+                        <label class="col-3">お問い合わせ内容</label>
+                        <textarea class="col-8" type="text"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">キャンセル</button>
+                        <button type="submit" class="btn btn-primary">送信</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/more.css">
+    <script src="./js/more.js"></script>
+
+</body>
+
+</html>

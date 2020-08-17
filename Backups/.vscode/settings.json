@@ -1,0 +1,12 @@
+{
+    // ターミナルを開いた時にWSLのCUIにアクセスするように設定 at 2019/06 on CODEBASEプログラミング教室
+"terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe"
+}
+"emmet.syntaxProfiles": {
+    "html": {
+        "filters": "html,c"
+    },
+},
+"emmet.preferences": {
+    "filter.commentAfter": "<!-- /[#ID][.CLASS] -->"
+},

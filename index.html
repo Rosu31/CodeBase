@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+
+    <title>MyProfile</title>
+</head>
+
+<body>
+    <!-- Top Logo -->
+    <div class="logo">
+        <h1><img class="logo-img" src="./images/Resized/whitebair.svg" alt="">
+            <span class="ml2 title-text" id="title">Profiles</span>
+        </h1>
+    </div>
+
+    <div class="container ">
+        <div class="page-contents">
+            <!-- Card Contents -->
+            <a href="./about.html" class="about card-link">
+                <div class="card">
+                    <img class="card-img" src="./images/about_icon.jpg" alt="">
+                    <div class="card-content">
+                        <p class="card-text line-text">
+                            about
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./work.html" class="works card-link">
+                <div class="card">
+                    <img class="card-img" src="./images/work_icon.jpg" alt="">
+                    <div class="card-content">
+                        <p class="card-text line-text">
+                            works
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./more.html" class="more card-link">
+                <div class="card">
+                    <img class="card-img" src="./images/more_icon.jpg" alt="">
+                    <div class="card-content">
+                        <p class="card-text line-text">
+                            more
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- profile Info -->
+        <div class="profile-info">
+            <h2 class="info-top">Ryo<img class="profile-img" src="./images/profile.img.png" alt=""></h2>
+            <p class="info-text">説明文をここに記載</p>
+            <button type="button" class="open-contact-form btn btn-light mb-8" data-toggle="modal"
+            data-target="#contact-modal">お問い合わせ</button>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+            aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>
+                            <div class="modal-title" id="myModalLabel">Contact</div>
+                        </h4>
+                    </div>
+                    <form role="form" id="contactform" action="/about.html" method="POST">
+                        <div class="modal-body　row center-block">
+                            <label class="col-3">お名前</label>
+                            <input class="col-8" type="text"><br>
+                            <label class="col-3">メールアドレス</label>
+                            <input class="col-8" type="text"><br>
+                            <label class="col-3">お問い合わせ内容</label>
+                            <textarea class="col-8" type="text"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">キャンセル</button>
+                            <button type="submit" class="btn btn-primary">送信</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- anime.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="./js/jquery.js"></script>
+</body>
+
+</html>
